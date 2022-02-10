@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* Reset ends */
+
+#root {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#root .first {
+  background-color: #efd592;
+}
+
+#root .second {
+  background-color: #4343f9;
+}
+
+
+#root .first .button1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-color: #242d38;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #efd592;
+}
+
+#root .first .button2 {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  height: 60px;
+  width: 200px;
+  border: 6px solid #242d38;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #242d38;
+}
+
+#root .second button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60px;
+  width: 200px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+  font-size: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #4343f9;
+}
